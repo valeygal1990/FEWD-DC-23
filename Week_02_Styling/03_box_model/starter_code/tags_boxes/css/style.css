@@ -1,0 +1,20 @@
+h1{
+	background: red;
+	padding:50px;
+	border:dashed yellow;
+}
+
+.myDiv tp{
+	background: yellow;
+	color:white;
+	padding:20px;
+	border:black;
+}
+
+code{
+	background: white;
+	color:black;
+	border:12px orange;
+	padding:10px;
+}
+

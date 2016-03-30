@@ -5,15 +5,30 @@
     <meta charset="UTF-8">
     <title>The Box Model</title>
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+    <style>
+        h2{
+            background: green;
+            border:10px gray dashed;
+        }
+        .purple{
+            background: purple
+            margin:20px auto 30px auto;
+        }
+
+    </style>
 </head>
 
 <body>
-    <h1>Box Model</h1>
+    
+    <h1 class="purple">Box Model</h1>
 
+    <div class="myDiv">
     <p>Every element on the page has its own box, which can be styled using CSS.</p>
     <p>From the inside out:</p>
-
+    </div>
     <ol>
+
         <li>content</li>
         <li>padding</li>
         <li>border</li>
@@ -28,13 +43,14 @@
         <li>Give the <code>h1</code> a red background, some padding, and a black border.</li>
     </ol>
 
-    <h2>Now You Try</h2>
+    <h2 class="blue">Now You Try</h2>
     <ol>
         <li>Give every <code>p</code> a blue background, white text, some padding, and a black border.</li>
         <li>Give every <code>code</code> element a white background, black text, a little padding, and a thin border.</li>
         <li>Try adding styles for the <code>h2</code>s on this page.</li>
         <li>Look into the syntax for <code>margin</code> and try adding more space around elements by using them.</li>
     </ol>
+    
 
     <h2>Too Easy?</h2>
     <p>Check out how this page looks on a small screen.  Can it look better?</p>

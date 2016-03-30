@@ -46,12 +46,15 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+   color: #000;
+   font-size: 12px;
+   line-height: 1.4;
+   font-family: Helvetica, Arial, sans-serif;
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    border:black solid 1px;
 }
 
 
@@ -68,12 +71,104 @@ body {
 }
 
 header {
+  text-align: center;
 
 }
+
+.whiteTextLogo{
+  font-size: 24px;
+  font-weight: Extrabold;
+  color:white;
+  text-align: left;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 600;
+  color:white;
+}
+
+h3{
+  font-size: 14px;
+  font-weight: 800;
+  background: #f9e42e;
+  border-radius: 5px;
+  width:10%;
+  height:5%;
+}
+
+.greyBackground{
+  background: #f0efef;
+  font-weight: light;
+  font-size: 13px;
+}
+
+.greyBackground--p{
+  color:#606161;
+  text-align: left;
+}
+
+h4{
+  font-weight: Semibold;
+  font-size: 20px;
+  color:#033048;
+  text-align: left;
+}
+
+ul{
+  list-style-type: circle;
+  color:#606161;
+  text-align: left;
+}
+
+.testimonialQuote{
+  font-weight: Light;
+  font-style: italic;
+  font-size: 18px;
+  color:white;
+}
+
+.testimonialName{
+  font-weight: Semibold;
+  font-size: 18px;
+  color:white;
+}
+
+h5{
+    background: yellow; 
+}
+
+
+.signUp{
+  font-weight: Extrabold;
+  font-size: 12px;
+  background:#033048;
+  color:white;
+  border-radius: 5px;
+  height: 10%;
+  width:15%;
+  text-align: center;
+}
+
 
 footer {
+  background: #121212;
 
 }
+
+.yellowTextLogo{
+  font-weight: Extrabold;
+  font-size: 24px; 
+  color: #f9e42e;
+}
+
+.copyright{
+  font-weight: Semibold;
+  font-size: 9px;
+  color:white;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES

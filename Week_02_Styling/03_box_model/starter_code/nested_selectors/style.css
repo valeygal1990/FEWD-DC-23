@@ -1,0 +1,27 @@
+<style>
+
+p{
+	font-family: arial';
+	color; purple;
+
+}
+
+	.mySection__p {
+		font-size: 32px;
+		color: red;
+	}
+
+	mySection__p--blue{
+		color:blue;
+
+	}
+
+	</style>
+
+	<p> Random Paragraph</p>
+
+
+	<div class="mySection">
+	<p class= "mySection__p">  Paragraph 1</p>
+	<p class= "mySection__p mySection__p--blue">Paragraph 2</p>
+	</div>
