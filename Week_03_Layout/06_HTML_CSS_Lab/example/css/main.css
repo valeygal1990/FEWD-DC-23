@@ -48,9 +48,14 @@ header {
 /* 
  * DIFFERENT SECTIONS, DIFFERENT STYLES
  */
+ section{
+ 	width:33.334%;
+ 	float: left;
+
+ }
 
 #section1 {
-	background-color: #ff9999;
+	background-color: rgba(255,0,0,0.5);
 }
 
 #section2 {
@@ -59,4 +64,26 @@ header {
 
 #section3 {
 	background-color: #9999ff;
+}
+
+@media only screen and (max-width:400px){
+	section {
+		float:none;
+		width:100%;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	section {
+	width: 50%;
+	}
+
+	#section2{
+		float: right;
+	}
+	#section3{
+		width:100%;
+	}
 }
