@@ -1,50 +1,41 @@
-$(document).ready (function(){
+$(document).ready(function() {
 
-	var a;
-	var b;
-	var myName = 'Bob';
-//Defining my function 
-	function whatIsMyName (myName){
-		console.log(myName);
-	}
+    var a;
+    var b;
 
-
-//Usingmyfunction
-	whatIsMyName(myName);
-
-
-
-
-	$('#submit').click(compareNumbers);
-
-	function compareNumbers(){
-		a = $('#a').val();
-		a = parseFloat(a);
-
-		b = $('#b').val();
-		b = parseFloat(b);
-
-		console.log(a);
-		console.log(b);
-	
-
-	if (a == b){
-		$('#comparison').html('=');
-		$('body').removeClass('greenBackground');
-		$('body').css('backgroundColor','pink');
-		console.log('equal to');
-	}else if (a>b){
-		$('#comparison').html('>');
-		$('body').removeClass();
-		$('body').addClass('pinkBackground');
-		console.log('greater than');
-	}else if (a<b){
-		$('#comparison').html('<');
-		$('body').addClass('greenBackground');
-		console.log('less than');
-	}
-
+    // Defining my function
+    function whatIsMyName(name) {
+        console.log(name);
     }
 
+
+    // Using my function
+    whatIsMyName('Jane');
+    console.log(name);
+
+
+
+    $('#submit').click(compareNumbers);
+
+    function compareNumbers() {
+        a = $('#a').val();
+        a = parseInt(a);
+        b = $('#b').val();
+        b = parseInt(b);
+        console.log(a);
+        console.log(b);
+
+        if (a>b) {
+            $('#comparison').html('>');
+            $('body').removeClass();
+            $('body').addClass('pinkBackground');
+        } else if (a<b) {
+            $('#comparison').html('<');
+            $('body').removeClass();
+            $('body').addClass('greenBackground');
+        } else if (a == b) {
+            $('#comparison').html('=');
+        }
+    }
 
 });
