@@ -11,6 +11,9 @@
 * Responsive Review
 * Flexbox
 
+Note:
+Everyone needs to update GitHub class repo!
+
 ---
 
 ## Fixed Layout
