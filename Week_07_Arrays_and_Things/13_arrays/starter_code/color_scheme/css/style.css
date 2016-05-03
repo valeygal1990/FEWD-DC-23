@@ -21,6 +21,10 @@ body.yellow {
   background: yellow;
   color: black;
 }
+body.red {
+  background: red;
+  color: black;
+}
 
 h1 {
   line-height: 1.25;
@@ -56,4 +60,7 @@ p {
 }
 #yellowButton {
   background: yellow;
+}
+#redButton {
+  background: red;
 }
