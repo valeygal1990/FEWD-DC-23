@@ -28,7 +28,7 @@ console.log("Question 2: " + q2);
  * Get the length of the first array (number of elements in the array) and store it in variable q3
  */
 
-var q3 = (q1.length);
+var q3 = q1.length;
 console.log("Question 3: " + q3);
 
 
@@ -37,6 +37,5 @@ console.log("Question 3: " + q3);
  *  Using the array from Question 1, store the last element of the array in variable q4. Hint: How can we get the number of elements in the array?
  */
 
-var q4 = [];
 console.log("Question 4: " + q4);
 

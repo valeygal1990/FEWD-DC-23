@@ -3,7 +3,7 @@
 // $('#blueButton').click(switchBlue);
 // $('#yellowButton').click(switchYellow);
 
-$('#switcher li').click(switchColor);
+$('#dswitcher li').click(switchColor);
 
 function switchColor(){
 	console.log($(this).attr('data-color'));
