@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px){
+	.tagline{
+		display: none;
+	}
+
+	.wrapper{
+		max-width: 600px;
+
+	}
+
+	.blurb p:first-of-type{
+		display: none;
+	}
+
+	#page-header nav li:first-child{
+	float:right;
+	cursor: pointer;
+	display: inline-block;
+	}
+
+	#page-header nav li{
+		display: none;
+	}
+
+	.tout{
+		float: none;
+		width: 94%;
+	}
+
+	
+}
+
