@@ -35,10 +35,30 @@ img {
     flex-wrap:wrap;
  }
 
+.animals {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 900px;
+}
+
 .animal {
     background: #eee;
     margin: 0.5em;
     padding: 1em;
+    flex-basis: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .animals {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .animals {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 768px){

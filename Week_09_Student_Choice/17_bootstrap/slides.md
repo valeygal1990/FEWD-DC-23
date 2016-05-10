@@ -13,32 +13,11 @@
 
 ---
 
-## Bootstrap
-
----
-
 ## The parts of Bootstrap
 
-* CSS (grid)
+* CSS
 * Components (CSS-things, more complicated)
 * Javascript (interactive things)
-
----
-
-## Bootstrap Javascript things
-
-* Bootstrap includes both CSS and Javascript pieces.
-* Javascript pieces require jQuery, which you need to load separately.
-
----
-
-## Order of JS files
-
-1. jQuery
-2. Bootstrap
-3. Your JS file
-
-![GeneralAssemb.ly](images/script_order.jpg)
 
 ---
 
@@ -70,8 +49,6 @@ http://getbootstrap.com/javascript/#modals
 1. jQuery
 2. Bootstrap
 3. Your JS file
-
-![GeneralAssemb.ly](images/script_order.jpg)
 
 ---
 
